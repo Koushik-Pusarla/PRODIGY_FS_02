@@ -26,12 +26,12 @@ To get a local copy up and running, follow these steps:
    git clone https://github.com/your-username/employee-management-system.git
 
 2. Navigate to the project directory:
-
-cd employee-management-system
+   ```bash
+   cd employee-management-system
 
 3. Create a virtual environment:
-
-python3 -m venv venv
+   ```bash
+   python3 -m venv venv
 
 4. Activate the virtual environment:
 
@@ -42,15 +42,15 @@ On MacOS/Linux:
 source venv/bin/activate
 
 5. Install the required dependencies:
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 6. Apply the migrations:
-
-python manage.py migrate
+   ```bash
+   python manage.py migrate
 
 7. Run the development server:
-
-python manage.py runserver
+   ```bash
+   python manage.py runserver
 
 8. Open your browser and go to http://127.0.0.1:8000/ to view the application.
